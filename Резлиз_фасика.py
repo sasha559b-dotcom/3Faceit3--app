@@ -41,7 +41,7 @@ NOT_REGISTERED_MSG = (
     "❌ <b>Вы не зарегистрированы!</b>\n\n"
     "Для регистрации введите:\n"
     "<code>/reg FACEIT_ID Никнейм</code>\n\n"
-    "Пример: <code>/reg abc123 ProPlayer</code>"
+    "Пример: <code>/reg GAME_ID ProPlayer</code>"
 )
 
 BOT_NAMES = [
