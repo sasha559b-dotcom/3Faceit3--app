@@ -1,1 +1,1 @@
-worker: python Резлиз_фасика.py
+worker: python bot.py
