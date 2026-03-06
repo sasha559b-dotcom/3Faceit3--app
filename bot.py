@@ -655,7 +655,7 @@ async def reg_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
         user_mention = update.message.from_user.mention_html()
         await update.message.reply_text(
             f"{user_mention} ⚠️ Регистрация происходит строго в личке у бота!\n\n"
-            f"👉 Напиши боту в личку: @Fasikkkk_bot\n"
+            f"👉 Напиши боту в личку: @CyberLegue_bot\n"
             f"И отправь там команду:\n"
             f"<code>/reg GAME_ID Никнейм</code>",
             parse_mode=ParseMode.HTML
@@ -812,7 +812,7 @@ async def play5_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(
             "❌ <b>Лобби нельзя запустить в личных сообщениях!</b>\n\n"
             "Заходи в беседу и запускай там:\n"
-            "👉 https://t.me/+sf5DyDHh3qhiYmEy",
+            "👉 https://t.me/+_tJYrsFI5jFhZTRi",
             parse_mode=ParseMode.HTML
         )
         return
@@ -837,7 +837,7 @@ async def play2_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(
             "❌ <b>Лобби нельзя запустить в личных сообщениях!</b>\n\n"
             "Заходи в беседу и запускай там:\n"
-            "👉 https://t.me/+sf5DyDHh3qhiYmEy",
+            "👉 https://t.me/+_tJYrsFI5jFhZTRi",
             parse_mode=ParseMode.HTML
         )
         return
